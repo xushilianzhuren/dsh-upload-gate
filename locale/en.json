@@ -1,0 +1,1 @@
+{ "meta": { "title": "Upload Gate", "description": "Mounts guardrail-first doctrine plus a three-check pre-flight (exists/secrets/size); pre-flight only, never uploads." } }

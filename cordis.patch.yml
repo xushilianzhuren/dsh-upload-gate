@@ -1,0 +1,9 @@
+# 上载闸 · 插件化
+# 只做出厂预检与凭据面盘点：不代传、不读密钥值。护栏没到位就拦，符合护栏前置令。
+- insert:
+    - id: ql-upload
+      name: 'dsh-upload-gate'
+      config:
+        enabled: true
+        order: 140
+        tool: true

@@ -1,0 +1,26 @@
+{
+  "name": "dsh-upload-gate",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "上载闸插件：护栏前置、出厂三检（存在/机密/体量）、凭据面盘点写成常驻提示；只预检不代传，杜绝无护栏的强能力出口。",
+  "license": "MIT",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
